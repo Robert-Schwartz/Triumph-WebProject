@@ -19,3 +19,7 @@ h1 {
 font-family: 'Roboto', sans-serif;
 font-weight: bold;
 }
+
+h2 {
+font-weight: 600;
+}
