@@ -27,6 +27,10 @@ h3 {
 	font-weight: 400;
 }
 
+h5 {
+	font-weight: 400;
+}
+
 
 button {
 	font-weight: 300;
@@ -53,12 +57,19 @@ img {
 #certifications {
 	background-color: black;
 	color: white;
-	padding: 15px;
+	padding: 60px 0px;
 }
 
+.certHead {
+	margin-bottom: 5rem;
+}
 
 #certificationCards {
 	padding: 5px;
+}
+
+#certificationCards p{
+	font-size: small;
 }
 
 #certifications p{
@@ -85,10 +96,13 @@ img {
 /**** media Queries ****/
 
 /* Extra-Small */
-@media (min-width: 575.98px) {
+@media (min-width: 320.98px) {
 	#certifications {
 	padding-inline-end: 1rem;
 	padding-inline-start: 1rem;
+}
+.certHead {
+	margin-bottom: 3rem;
 }
 }
 
@@ -98,6 +112,9 @@ img {
 	padding-inline-end: 3rem;
 	padding-inline-start: 3rem;
 }
+.certHead {
+	margin-bottom: 3rem;
+}
 }
 
 /* Medium */
@@ -105,6 +122,9 @@ img {
 #certifications {
 	padding-inline-end: 10rem;
 	padding-inline-start: 10rem;
+}
+.certHead {
+	margin-bottom: 5rem;
 }
 }
 
