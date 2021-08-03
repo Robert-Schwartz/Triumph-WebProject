@@ -27,8 +27,91 @@ h3 {
 	font-weight: 400;
 }
 
+
 button {
 	font-weight: 300;
-	font-size: .8rem;
-	padding: .4rem 1rem;
+	font-size: 0.8rem;
+	padding: 0.4rem 1rem;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/********** Sections *******/
+
+/* About */
+#about img {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	height: 100%;
+	width: 100%;
+}
+
+/* Certifications */
+#certifications {
+	background-color: black;
+	color: white;
+	padding: 15px;
+}
+
+
+#certificationCards {
+	padding: 5px;
+}
+
+#certifications p{
+	padding-inline-end: 2rem;
+	padding-inline-start: 2rem;
+}
+
+#certifications img {
+	width: 18%;
+	filter: invert(1) brightness(90%);
+}
+
+#tiling img {
+	width: 12%;
+}
+
+#tractor img {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+	height: 100%;
+	width: 100%;
+}
+
+/**** media Queries ****/
+
+/* Extra-Small */
+@media (min-width: 575.98px) {
+	#certifications {
+	padding-inline-end: 1rem;
+	padding-inline-start: 1rem;
+}
+}
+
+/* Small */
+@media (min-width: 576px) {
+	#certifications {
+	padding-inline-end: 3rem;
+	padding-inline-start: 3rem;
+}
+}
+
+/* Medium */
+@media (min-width: 768px) {
+#certifications {
+	padding-inline-end: 10rem;
+	padding-inline-start: 10rem;
+}
+}
+
+/* Large */
+@media (min-width: 992px) {
+#certifications {
+	padding-inline-end: 15rem;
+	padding-inline-start: 15rem;
+}
 }
