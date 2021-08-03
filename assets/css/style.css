@@ -57,19 +57,19 @@ img {
 #certifications {
 	background-color: black;
 	color: white;
-	padding: 60px 0px;
+	padding: 60px 10px;
 }
 
 .certHead {
 	margin-bottom: 5rem;
 }
 
-#certificationCards {
-	padding: 5px;
-}
-
 #certificationCards p{
 	font-size: small;
+}
+
+#certificationCards h2{
+	font-size: 1.5rem;
 }
 
 #certifications p{
@@ -78,12 +78,17 @@ img {
 }
 
 #certifications img {
-	width: 18%;
+	width: 20%;
 	filter: invert(1) brightness(90%);
 }
 
 #tiling img {
-	width: 12%;
+	width: 20%;
+}
+
+#tiling div {
+	align-items: center;
+	padding: .5rem;
 }
 
 #tractor img {
@@ -120,8 +125,8 @@ img {
 /* Medium */
 @media (min-width: 768px) {
 #certifications {
-	padding-inline-end: 10rem;
-	padding-inline-start: 10rem;
+	padding-inline-end: 8rem;
+	padding-inline-start: 8rem;
 }
 .certHead {
 	margin-bottom: 5rem;
@@ -131,7 +136,7 @@ img {
 /* Large */
 @media (min-width: 992px) {
 #certifications {
-	padding-inline-end: 15rem;
-	padding-inline-start: 15rem;
+	padding-inline-end: 10rem;
+	padding-inline-start: 10rem;
 }
 }
